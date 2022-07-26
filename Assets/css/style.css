@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightcyan;
+}
+/* header section */
+header {
+  padding: 50px;
+  font-family: fantasy;
+  background-image: url("https://wallpapers.com/images/high/ocean-foam-bjvnb29ao2b918mg.jpg");
+  color: white;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+header h1 .seo {
+  color: #d9dcd6;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: white;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+/* header section ends */
+/* image */
+.profile-pic {
+  width: 100px;
+}
+
+h3 {
+  display: block;
+  margin-left: 10px auto;
+  max-width: 150px;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 20px;
+}
