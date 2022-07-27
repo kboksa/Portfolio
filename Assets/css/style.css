@@ -53,14 +53,30 @@ header nav ul li {
   position: absolute;
   left:50px;
 }
-
+/* about me section
 .info{
-    position: relative;
+    position: absolute;
     right:50px;
 }
+/* work section */
+/* .work,{
+    position:absolute;
+    right: 30px; */ 
 
+.work,.info{
+   position: relative; 
+   align-content;:left 0px
+   flex-direction: column;
+}
+
+.work{
+    display: flex;
+    justify-content:space-between;
+}
 .horiseon{
-    width: 500px;
+    width: 300px;
+    position: relative ;
+    align-items: right;
 }
 footer {
   position: absolute;
