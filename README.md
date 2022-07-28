@@ -2,6 +2,8 @@
 
 ## Deployed link to application
 
+https://kboksa.github.io/Portfolio/
+
 ## Description
 
 - Using HTML and CSS I build my Profile Page
