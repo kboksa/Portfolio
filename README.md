@@ -7,7 +7,7 @@ https://kboksa.github.io/Portfolio/
 ## Description
 
 - Using HTML and CSS I build my Profile Page
-- This project to show my skill and contect information to emloyers
+- This project to shows my skills and contect information to emloyers
 
 ## Usage
 
