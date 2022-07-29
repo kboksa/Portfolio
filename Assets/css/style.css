@@ -12,6 +12,8 @@ header {
   font-family: fantasy;
   background-image: url("https://wallpapers.com/images/high/ocean-foam-bjvnb29ao2b918mg.jpg");
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header h1 {
@@ -55,10 +57,14 @@ h4 {
 .profile-pic {
   width: 110px;
   border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  margin-top: 20px;
 }
 
 .content {
-  position: absolute;
+  /* position: absolute; */
   left: 50px;
 }
 /* about me section
@@ -79,9 +85,11 @@ h4 {
 
 .para {
   margin-left: 25%;
+  margin-right: 150px;
+  font-size: larger;
 }
 
-.work {
+#work {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -148,9 +156,11 @@ footer h2 {
 }
 
 @media screen and (max-width: 768px) {
-  main,
+  header,
   section,
-  footer {
+  footer,
+  content,
+  #work {
     flex-direction: column;
   }
 }
